@@ -1,0 +1,51 @@
+.member img {
+    width: 100%;
+    height: 40%;
+    border-radius: 8px;
+}
+
+.member {
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    padding: 10px;
+    /* width: 250px; */
+    position: relative;
+}
+
+.member p {
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.member h2 {
+    margin-bottom: 10px;
+}
+
+
+.addBtn {
+    width: 90%;
+    padding: 10px 0;
+    border: none;
+    border-radius: 8px;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    margin-left: 12px;
+    background-color: slategray;
+    color: white;
+}
+
+@media only screen and (min-width: 900px) {
+    /* .member {
+        width: 250px;
+    } */
+
+    .member p {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .member h2 {
+        margin-bottom: 0px;
+    }
+}
